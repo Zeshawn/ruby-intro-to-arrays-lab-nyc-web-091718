@@ -11,7 +11,7 @@ def indexing
 end
 
 def first_element(array)
- @taylor_swift.first
+ @taylor_swift[0]
 
 end
 
@@ -20,11 +20,15 @@ def third_element(array)
 end
 
 def last_element(array)
-  @taylor_swift.last
+  @taylor_swift[3]
 end
 
 @south_east_asia = ["Thailand", "Cambodia", "Singapore", "Myanmar"]
 
 def first_element_with_array_methods(array)
   @south_east_asia.first
+end
+
+def last_element_with_array_methods(array)
+  @south_east_asia.last
 end
